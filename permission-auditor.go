@@ -3,7 +3,7 @@
 // human-readable rationale.
 //
 // It is the risk-scoring engine behind the extension safety review tools at
-// https://zovo.one: given the parsed permissions and host match patterns, it
+// https://zovo.one/ given the parsed permissions and host match patterns, it
 // returns a per-permission breakdown, an overall risk level, and a summary the
 // UI renders directly.
 //
