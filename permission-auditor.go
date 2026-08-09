@@ -3,9 +3,11 @@
 // human-readable rationale.
 //
 // It is the risk-scoring engine behind the extension safety review tools at
-// https://zovo.one/ given the parsed permissions and host match patterns, it
+// https://zovo.one/ — given the parsed permissions and host match patterns, it
 // returns a per-permission breakdown, an overall risk level, and a summary the
-// UI renders directly.
+// UI renders directly. The same classification is what produces the
+// permission findings on the reviewed extensions listed at
+// https://zovo.one/extensions
 //
 // The package is designed to pair with
 // github.com/theluckystrike/crx-manifest-parser but takes plain string slices

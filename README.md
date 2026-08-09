@@ -11,6 +11,9 @@ It powers the extension safety review engine at
 [`crx-manifest-parser`](https://pkg.go.dev/github.com/theluckystrike/crx-manifest-parser)
 — though it takes plain string slices so it works standalone too.
 
+The same classification produces the permission findings shown on the reviewed
+extensions in the [Zovo extension directory](https://zovo.one/extensions).
+
 ## Install
 
 ```sh
