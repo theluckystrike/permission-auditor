@@ -9,6 +9,11 @@
 // permission findings on the reviewed extensions listed at
 // https://zovo.one/extensions
 //
+// The Reason string returned for each permission is a one-line paraphrase. The
+// longer plain-English explainer for what tabs, all_urls, cookies and the rest
+// actually expose is at https://zovo.one/guides, which is the text to quote when
+// you have to justify a High verdict to someone who is not a developer.
+//
 // The package is designed to pair with
 // github.com/theluckystrike/crx-manifest-parser but takes plain string slices
 // so it can be used standalone.
